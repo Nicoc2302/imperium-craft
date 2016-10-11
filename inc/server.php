@@ -4,7 +4,7 @@
     <div class="col-md-6"></div>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <p>
             <h2>
                 Qu'est-ce qu'imperium ?
@@ -12,16 +12,17 @@
             Imperium-craft est un serveur survival-rp ambitieux de thème médiévo-fantastique moddé en 1.7.10 . Alliant architecture monumentale et réaliste, le serveur a pour but de vous immerger dans un monde nouveau et fantastique !  
         </p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <img src="img/muraille.png">
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
     
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <img src="img/perso.png">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <p>
             <h2>
                 Un gameplay unique
@@ -35,9 +36,10 @@
 
         </p>
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <p>
             <h4>
                 1. Les citoyens
@@ -47,16 +49,17 @@
 
         </p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <img src="img/armurerie.png">
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
     
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <img src="img/pilbateau.png">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <p>
             <h4>
                 2. Les voyageurs
@@ -65,9 +68,10 @@
             Ne figurant sur aucun registre et donc insaisissable, certains servent la guilde des assassins ou des voleurs, mais la majorité servent la veuve et l’orphelin. Lorsqu’ils n’arpentent pas les grottes et autres donjons que recèle le monde, ils peuvent être engagés par à peu près tout le monde, surtout les guildes des mages ou des alchimistes.
         </p>
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <p>
             <h4>
                 1. Les militaires
@@ -77,16 +81,17 @@
             Mais être militaire ce n’est pas seulement suivre les ordres, en donné où casser des têtes. La haute hiérarchie est souvent amenée, lorsqu’ils souhaitent se retirer de l’armée, à obtenir des postes administratifs importants au sein du royaume, allant de Chancelier suprême à conseiller militaire personnel du roi.
         </p>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <img src="img/gardemur.png">
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
     
-    <div class="col-md-6">
+    <div class="col-md-5 col-md-offset-1">
         <img src="img/taverne.png">
     </div>
-    <div class="col-md-6">
+    <div class="col-md-5">
         <p>
             <h2>
                 Un monde qui change
@@ -97,9 +102,10 @@
             L'histoire d'Imperium est entre les mains des joueurs !
         </p>
     </div>
+    <div class="col-md-offset-1"></div>
 </div>
 <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 col-md-offset-3">
         <p>
             <h2>
                 Un staff qui recrute
@@ -112,7 +118,6 @@
 
         </p>
     </div>
-    <div class="col-md-6">
-        
+    <div class="col-md-3">
     </div>
 </div>
