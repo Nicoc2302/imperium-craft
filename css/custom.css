@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : Quentin
 */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   margin-bottom: 60px;
