@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-8">
         <h1>FAQ</h1>
         <p>
             <h2>
@@ -44,6 +44,8 @@
             Il n'y a pas de skin préconsus dans MPM, il faut impérativemetn que vous en choisissiez un enligne et de thème médiéval.<br>
         </p>
         <hr>
+    </div>
+    <div class="col-md-4">
         <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
