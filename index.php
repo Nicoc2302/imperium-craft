@@ -16,7 +16,7 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container">
             <div class="masthead">
                 <img src="img/logo.png">
                 <h3 class="text-muted">Imperium-Craft</h3>
@@ -45,6 +45,7 @@ and open the template in the editor.
                     <?php
                         $page = (isset($_GET['page'])) ? $_GET['page'] : 'home';
                         $page = 'inc/' . $page . '.php';
+                        if (!file_exists($page)) $page='error/404.php';
                         include_once $page;
                     ?>
                 </div>
