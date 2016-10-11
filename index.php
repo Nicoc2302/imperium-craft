@@ -50,6 +50,7 @@ and open the template in the editor.
                 </div>
             </div>
             <footer class="footer">
+                <hr>
                 <p>© 2016 Imperium-Craft</p>
             </footer>
         </div>
