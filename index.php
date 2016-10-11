@@ -18,6 +18,7 @@ and open the template in the editor.
     <body>
         <div class="container-fluid">
             <div class="masthead">
+                <img src="img/logo.png">
                 <h3 class="text-muted">Imperium-Craft</h3>
                 <nav>
                   <ul class="nav nav-justified">
