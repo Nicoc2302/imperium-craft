@@ -39,3 +39,83 @@
         </p>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            <h4>
+                1. Les citoyens
+            </h4>
+            Au début de son aventure, chaque citoyen se voit s’offrir la possibilité de rejoindre l’une des nombreuses guildes de métier que compte la cité. La plus prestigieuse d’entre-elles étant la guilde de Mages. En incorporant une guilde, chaque joueur entre dans un cercle d’entraide et de camaraderie qui le guidera tout au long de sa vie sur imperium.<br>
+            Cependant, la vie de la classe citoyenne ne s’arrête pas au travail dans une guilde ! Les joueurs ont accès à la vie politique du royaume et beaucoup d’entre-eux se sont vu confié des missions de colonisation faisant d’eux des héros nationaux.
+
+        </p>
+    </div>
+    <div class="col-md-6">
+        <img src="img/armurerie.png">
+    </div>
+</div>
+<div class="row">
+    
+    <div class="col-md-6">
+        <img src="img/pilbateau.png">
+    </div>
+    <div class="col-md-6">
+        <p>
+            <h4>
+                2. Les voyageurs
+            </h4>
+            Les voyageurs sont des nomades et surtout des explorateurs. Hors des contraintes d’une vie dictée par l’économie et les impôts, les auberges sont leur foyer. Les voyageurs n’ont, pour la plupart pas de logement fixe, et se voient parfois refuser l’accès à des villes à cheval sur la question des vagabonds.<br>
+            Ne figurant sur aucun registre et donc insaisissable, certains servent la guilde des assassins ou des voleurs, mais la majorité servent la veuve et l’orphelin. Lorsqu’ils n’arpentent pas les grottes et autres donjons que recèle le monde, ils peuvent être engagés par à peu près tout le monde, surtout les guildes des mages ou des alchimistes.
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            <h4>
+                1. Les militaires
+            </h4>
+            Cette classe est le bras armé du royaume. Chaques joueurs qui souhaitent se battre dans les rangs de l’armée doivent subir un entraînement intense pour pouvoir gravir les échelons hiérarchiques. Les militaires résident dans les casernes, ne payent pas d’impôts et peuvent être mobilisés à chaque instant. Il n’est pas rare qu’un soldat soit caserné à plusieurs forts différents sur une semaine de temps.<br>
+            Que ce soit la garde, l’armée ou la marine, chaque joueur qui intègre les forces armées du royaume est traité avec le respect et l’admiration que la société Adelonienne leur a toujours portée.<br>
+            Mais être militaire ce n’est pas seulement suivre les ordres, en donné où casser des têtes. La haute hiérarchie est souvent amenée, lorsqu’ils souhaitent se retirer de l’armée, à obtenir des postes administratifs importants au sein du royaume, allant de Chancelier suprême à conseiller militaire personnel du roi.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <img src="img/gardemur.png">
+    </div>
+</div>
+<div class="row">
+    
+    <div class="col-md-6">
+        <img src="img/taverne.png">
+    </div>
+    <div class="col-md-6">
+        <p>
+            <h2>
+                Un monde qui change
+            </h2>
+            Une Histoire faite PAR les joueurs POUR les joueurs !<br>
+            Le Monde d'Imperium est un monde vivant ou chaque acte à des conséquences. Selon l'action des joueurs ou des maîtres du jeu, les événements peuvent prendre une tournure imprévisible, allant d'une révolution à des guerres entre villes secondaires jusqu'à même la sécession de certaines villes afin de former un autre royaume !<br><br>
+            Les citoyens ne sont pas écartés du pouvoir, au contraire. jusqu'à 80 joueurs peuvent sièger au Sénat ou se prennent toutes les décisions concernant la vie du royaume, les lois et la création de nouvelles villes.<br><br>
+            L'histoire d'Imperium est entre les mains des joueurs !
+        </p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            <h2>
+                1. Les militaires
+            </h2>
+        Le Staff c'est un fonda et deux admins qui recrutent !<br>
+        Nous avons besoin de modérateurs, d'animateurs, mais surtout de joueurs qui en veulent!<br><br>
+        Pour rejoindre le staff une solution postuler sur le site à travers la plateforme contactes-nous sur la page principale du Site !<br><br>
+        A bientîot, sur Imperium !<br>
+        Fondateur Tombraxis.
+
+        </p>
+    </div>
+    <div class="col-md-6">
+        
+    </div>
+</div>
