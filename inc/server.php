@@ -105,7 +105,7 @@
     <div class="col-md-6">
         <p>
             <h2>
-                1. Les militaires
+                Un staff qui recrute
             </h2>
         Le Staff c'est un fonda et deux admins qui recrutent !<br>
         Nous avons besoin de modérateurs, d'animateurs, mais surtout de joueurs qui en veulent!<br><br>
