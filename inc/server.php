@@ -5,3 +5,11 @@
         </p>
     </div>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <p>
+            <img src="img/logo.png">
+        </p>
+    </div>
+    <div class="col-md-6"></div>
+</div>
