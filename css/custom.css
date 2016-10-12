@@ -28,3 +28,9 @@ body {
     height: 40px;
     text-align: center;
 }
+
+#server {
+    background-color: brown;
+    color:white;
+    
+}
