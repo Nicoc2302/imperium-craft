@@ -11,7 +11,7 @@ and open the template in the editor.
 html {
   position: relative;
   min-height: 100%;
-  background-image: url:("img/background.png");
+  background-image: url("img/background.png");
 }
 
 body {
