@@ -17,7 +17,7 @@ and open the template in the editor.
     </head>
     <body>
         <div class="container-fluid">
-            <div class="masthead">
+            <header class="masthead">
                 <img src="img/logo.png">
                 <h3 class="text-muted">Imperium-Craft</h3>
                 <nav>
@@ -39,17 +39,17 @@ and open the template in the editor.
                     <li><a href="?page=gallery">Galerie</a></li>
                   </ul>
                 </nav>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
+            </header>
+            <section class="row">
+                <article class="col-md-12">
                     <?php
                         $page = (isset($_GET['page'])) ? $_GET['page'] : 'home';
                         $page = 'inc/' . $page . '.php';
                         if (!file_exists($page)) $page='error/404.php';
                         include_once $page;
                     ?>
-                </div>
-            </div>
+                </article>
+            </section>
             <footer class="footer">
                 <hr>
                 <p>© 2016 Imperium-Craft</p>
