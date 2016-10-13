@@ -54,7 +54,7 @@
     {
         $i=0;
         $split =explode("|", $ligne);
-        var_dump($split);
+        echo $split[0];
     }
     
     fclose($open_read);
