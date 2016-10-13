@@ -36,11 +36,6 @@
         $probleme = $_POST['probleme'];
         $message = $_POST['message'];
         $open = fopen($filename, 'a');
-        fwrite($open,$email.PHP_EOL);
-        fwrite($open,$pseudo.PHP_EOL);
-        fwrite($open,$probleme.PHP_EOL);
-        fwrite($open,$message.PHP_EOL);
-        fclose($open);
         // Creata table
         $news = array();
         $news['email'] = $email;
@@ -49,12 +44,23 @@
         $news['message'] = $message;
         // Write Table
         $open = fopen($filename, 'a');
-        fwrite($open,$news);
+        fwrite($open,implode('|',$news));
+        fclose($open);
+        
     }
     // Read table
     $open_read = fopen($filename, 'r');
-    $read = fread($open_read, filesize($filename));
-    echo $read;
+    while($ligne=fgets($open_read))
+    {
+        $i=0;
+        $split =explode("|", $ligne);
+        for($i=0;$i<$split;$i++)
+        {
+        echo $split[i]."<br>";
+        }
+        
+    }
+    
     fclose($open_read);
             
 ?>
