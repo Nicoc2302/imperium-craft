@@ -1,7 +1,7 @@
 <div class="server">
     <section class="row">
         <article class="col-md-6">
-        </div>
+        </section>
         <article class="col-md-6"></article>
     </section>
     <section class="row">
@@ -16,7 +16,7 @@
         <article class="col-md-5">
             <img src="img/muraille.png">
         </article>
-        <div class="col-md-offset-1"></div>
+        <article class="col-md-offset-1"></article>
     </section>
     <section class="row">
 
