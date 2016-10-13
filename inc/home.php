@@ -54,11 +54,7 @@
     {
         $i=0;
         $split =explode("|", $ligne);
-        for($i=0;$i<$split;$i++)
-        {
-        echo $split[i]."<br>";
-        }
-        
+        var_dump($split);
     }
     
     fclose($open_read);
