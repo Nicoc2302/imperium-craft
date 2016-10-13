@@ -5,13 +5,32 @@
         </p>
     </div>
     <div class="col-md-4">
-        <p>
-            <div class="alert alert-warning" role="alert">...</div>
-        </p>
+        <form method="post">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Adresse Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name = "email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPseudo">Pseudo</label>
+              <input type="text" class="form-control" id="exampleInputPseudo" placeholder="Pseudo" name = "pseudo">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputProbleme">Probleme</label>
+              <input type="text" class="form-control" id="exampleInputProbleme" placeholder="Probleme" name = "probleme">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputMessage">Message</label>
+              <textarea class="form-control" id="exampleInputMessage" placeholder="Message" name = "message"></textarea>
+            </div>
+            
+            <input type="submit" class="btn btn-default">Submit</input>
+        </form>
     </div>
 </div>
 <?php
-    $filename = "files/test.txt";
-    $data = "coucou";
-    file_put_contents($filename, $data);
+    if($_SERVER['REQUEST_METHOD']=='POST'){
+        $filename = "files/test.txt";
+        $data = $_POST['email'];
+        file_put_contents($filename, $data);
+    }
 ?>
