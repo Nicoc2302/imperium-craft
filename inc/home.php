@@ -35,10 +35,10 @@
         $probleme = $_POST['probleme'];
         $message = $_POST['message'];
         $open = fopen($filename, 'a');
-        fwrite($open,$email.'\n');
-        fwrite($open,$pseudo.'\n');
-        fwrite($open,$probleme.'\n');
-        fwrite($open,$message.'\n');
+        fwrite($open,$email.PHP_EOL);
+        fwrite($open,$pseudo.PHP_EOL);
+        fwrite($open,$probleme.PHP_EOL);
+        fwrite($open,$message.PHP_EOL);
         fclose($open);
                 
     }
