@@ -30,7 +30,13 @@
 <?php
     if($_SERVER['REQUEST_METHOD']=='POST'){
         $filename = "files/test.txt";
-        $data = $_POST['email'];
-        file_put_contents($filename, $data);
+        $email = $_POST['email'];
+        $pseudo = $_POST['pseudo'];
+        $probleme = $_POST['probleme'];
+        $message = $_POST['message'];
+        file_put_contents($filename, $email);
+        file_put_contents($filename,$pseudo,FILE_APPEND);
+        file_put_contents($filename,$probleme,FILE_APPEND);
+        file_put_contents($filename,$message,FILE_APPEND);    
     }
 ?>
