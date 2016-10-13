@@ -69,7 +69,7 @@
                 Ne figurant sur aucun registre et donc insaisissable, certains servent la guilde des assassins ou des voleurs, mais la majorité servent la veuve et l’orphelin. Lorsqu’ils n’arpentent pas les grottes et autres donjons que recèle le monde, ils peuvent être engagés par à peu près tout le monde, surtout les guildes des mages ou des alchimistes.
             </p>
         </article>
-        <div class="col-md-offset-1"></div>
+        <article class="col-md-offset-1"></article>
     </section>
     <section class="row">
         <article class="col-md-5 col-md-offset-1">
