@@ -32,7 +32,6 @@ body {
 .server{
     color: white;
     background-color: brown;
-    opacity:0.8;
     
 }
 .server h2{
@@ -40,4 +39,15 @@ body {
 }
 .server h4{
     color: gold;
+}
+.background{
+    background-image: url("../img/wood.jpg");
+    opacity:0.9;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 20px 20px 20px -3px rgba(0,0,0,0.3) inset,
+                -20px -20px 20px 3px rgba(0,0,0,0.3) inset;
+    
+    border-radius: 25px;
+
 }

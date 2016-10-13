@@ -40,7 +40,7 @@ and open the template in the editor.
                   </ul>
                 </nav>
             </header>
-            <section class="row">
+            <section class="row background">
                 <article class="col-md-12">
                     <?php
                         $page = (isset($_GET['page'])) ? $_GET['page'] : 'home';
