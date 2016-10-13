@@ -28,8 +28,9 @@
     </div>
 </div>
 <?php
+    $filename = "files/test.txt";
     if($_SERVER['REQUEST_METHOD']=='POST'){
-        $filename = "files/test.txt";
+        
         $email = $_POST['email'];
         $pseudo = $_POST['pseudo'];
         $probleme = $_POST['probleme'];
@@ -40,6 +41,11 @@
         fwrite($open,$probleme.PHP_EOL);
         fwrite($open,$message.PHP_EOL);
         fclose($open);
-                
+        
     }
+    $open_read = fopen($filename, 'r');
+    $read = fread($open_read, filesize($filename));
+    echo $read;
+    fclose($open_read);
+            
 ?>
