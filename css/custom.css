@@ -32,6 +32,7 @@ body {
 .server{
     color: white;
     background-color: brown;
+    opacity:0.8;
     
 }
 .server h2{

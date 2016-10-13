@@ -1,10 +1,5 @@
-<div class="server">
-    <section class="row">
-        <article class="col-md-6">
-        </section>
-        <article class="col-md-6"></article>
-    </section>
-    <section class="row">
+    
+    <section class="row server">
         <article class="col-md-5 col-md-offset-1">
             <p>
                 <h2>
@@ -18,7 +13,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
 
         <article class="col-md-5 col-md-offset-1">
             <img src="img/perso.png">
@@ -39,7 +34,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
         <article class="col-md-5 col-md-offset-1">
             <p>
                 <h4>
@@ -55,7 +50,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
 
         <article class="col-md-5 col-md-offset-1">
             <img src="img/pilbateau.png">
@@ -71,7 +66,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
         <article class="col-md-5 col-md-offset-1">
             <p>
                 <h4>
@@ -87,7 +82,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
 
         <article class="col-md-5 col-md-offset-1">
             <img src="img/taverne.png">
@@ -105,7 +100,7 @@
         </article>
         <article class="col-md-offset-1"></article>
     </section>
-    <section class="row">
+    <section class="row server">
         <article class="col-md-6 col-md-offset-3">
             <p>
                 <h2>
@@ -122,4 +117,3 @@
         <article class="col-md-3">
         </article>
     </section>
-</div>
