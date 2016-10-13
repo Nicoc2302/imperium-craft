@@ -10,3 +10,8 @@
         </p>
     </div>
 </div>
+<?php
+$filename = "/files/test.txt";
+$data = "coucou";
+file_put_contents($filename, $data);
+?>
