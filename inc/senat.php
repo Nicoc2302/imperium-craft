@@ -8,10 +8,10 @@
             Ils y a plusieurs sortes de magistrats :<br>
             <ul>
                 <li>Sénateur : le sénateur est nommé tous les deux mois. Ils représentent le peuple dans son intégralité. Tout le monde peut se présenter comme sénateur, mais il est interdit de cumuler deux mandats à la suite. chaque sénateur possède une voix au sénat et peut créer des projets de loi.</li> 
-                <li>Représentants du peuple : Ces magistrats représentent chacun un domaine spécifique.
-                    -Représentant des finances
-                    -Représentant des armées
-                    -Représentant des infrastructures
+                <li>Représentants du peuple : Ces magistrats représentent chacun un domaine spécifique.<br>
+                    -Représentant des finances<br>
+                    -Représentant des armées<br>
+                    -Représentant des infrastructures<br>
                     -Représentant des guildes (élu par les chefs de guilde)</li>
 
                 <li>Le Roi possède un droit de véto et peut créer des projets de loi.</li>
