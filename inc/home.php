@@ -41,8 +41,17 @@
         fwrite($open,$probleme.PHP_EOL);
         fwrite($open,$message.PHP_EOL);
         fclose($open);
-        
+        // Creata table
+        $news = array();
+        $news['email'] = $email;
+        $news['pseudo'] = $pseudo;
+        $news['probleme'] = $probleme;
+        $news['message'] = $message;
+        // Write Table
+        $open = fopen($filename, 'a');
+        fwrite($open,$news);
     }
+    // Read table
     $open_read = fopen($filename, 'r');
     $read = fread($open_read, filesize($filename));
     echo $read;
