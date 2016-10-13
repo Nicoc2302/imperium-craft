@@ -8,19 +8,19 @@
         <form method="post">
             <div class="form-group">
               <label for="exampleInputEmail1">Adresse Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name = "email">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required name = "email">
             </div>
             <div class="form-group">
               <label for="exampleInputPseudo">Pseudo</label>
-              <input type="text" class="form-control" id="exampleInputPseudo" placeholder="Pseudo" name = "pseudo">
+              <input type="text" class="form-control" id="exampleInputPseudo" placeholder="Pseudo" required name = "pseudo">
             </div>
             <div class="form-group">
               <label for="exampleInputProbleme">Probleme</label>
-              <input type="text" class="form-control" id="exampleInputProbleme" placeholder="Probleme" name = "probleme">
+              <input type="text" class="form-control" id="exampleInputProbleme" placeholder="Probleme" required name = "probleme">
             </div>
             <div class="form-group">
               <label for="exampleInputMessage">Message</label>
-              <textarea class="form-control" id="exampleInputMessage" placeholder="Message" name = "message"></textarea>
+              <textarea class="form-control" id="exampleInputMessage" placeholder="Message" required name = "message"></textarea>
             </div>
             
             <input type="submit" class="btn btn-default">Submit</input>
