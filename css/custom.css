@@ -16,7 +16,7 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: url("#");
+    background-image: url("img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -31,5 +31,6 @@ body {
 
 .server{
     color: white;
+    background-color: brown;
     
 }
