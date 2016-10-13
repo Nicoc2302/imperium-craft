@@ -44,7 +44,7 @@
         $news['message'] = $message;
         // Write Table
         $open = fopen($filename, 'a');
-        fwrite($open,implode('|',$news));
+        fwrite($open,implode('|',$news).PHP_EOL);
         fclose($open);
         
     }
