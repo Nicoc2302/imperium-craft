@@ -1,29 +1,29 @@
 <div class="server">
-    <div class="row">
-        <div class="col-md-6">
+    <section class="row">
+        <article class="col-md-6">
         </div>
-        <div class="col-md-6"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        <article class="col-md-6"></article>
+    </section>
+    <section class="row">
+        <article class="col-md-5 col-md-offset-1">
             <p>
                 <h2>
                     Qu'est-ce qu'imperium ?
                 </h2>
                 Imperium-craft est un serveur survival-rp ambitieux de thème médiévo-fantastique moddé en 1.7.10 . Alliant architecture monumentale et réaliste, le serveur a pour but de vous immerger dans un monde nouveau et fantastique !  
             </p>
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <img src="img/muraille.png">
-        </div>
+        </article>
         <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
+    </section>
+    <section class="row">
 
-        <div class="col-md-5 col-md-offset-1">
+        <article class="col-md-5 col-md-offset-1">
             <img src="img/perso.png">
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <p>
                 <h2>
                     Un gameplay unique
@@ -36,11 +36,11 @@
             Chaque joueur se voit choisir sa « classe » au début de sa vie sur Imperium et la conservera jusqu’à sa mort ou jusqu’à ce qu’il décide d’en changer. En effet, les classes ne sont pas imperméables et un marchand peut décider de voyager comme il peut s’engager à l’armée et vice versa.<br>
 
             </p>
-        </div>
-        <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+        </article>
+        <article class="col-md-offset-1"></article>
+    </section>
+    <section class="row">
+        <article class="col-md-5 col-md-offset-1">
             <p>
                 <h4>
                     1. Les citoyens
@@ -49,18 +49,18 @@
                 Cependant, la vie de la classe citoyenne ne s’arrête pas au travail dans une guilde ! Les joueurs ont accès à la vie politique du royaume et beaucoup d’entre-eux se sont vu confié des missions de colonisation faisant d’eux des héros nationaux.
 
             </p>
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <img src="img/armurerie.png">
-        </div>
-        <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
+        </article>
+        <article class="col-md-offset-1"></article>
+    </section>
+    <section class="row">
 
-        <div class="col-md-5 col-md-offset-1">
+        <article class="col-md-5 col-md-offset-1">
             <img src="img/pilbateau.png">
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <p>
                 <h4>
                     2. Les voyageurs
@@ -68,11 +68,11 @@
                 Les voyageurs sont des nomades et surtout des explorateurs. Hors des contraintes d’une vie dictée par l’économie et les impôts, les auberges sont leur foyer. Les voyageurs n’ont, pour la plupart pas de logement fixe, et se voient parfois refuser l’accès à des villes à cheval sur la question des vagabonds.<br>
                 Ne figurant sur aucun registre et donc insaisissable, certains servent la guilde des assassins ou des voleurs, mais la majorité servent la veuve et l’orphelin. Lorsqu’ils n’arpentent pas les grottes et autres donjons que recèle le monde, ils peuvent être engagés par à peu près tout le monde, surtout les guildes des mages ou des alchimistes.
             </p>
-        </div>
+        </article>
         <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-5 col-md-offset-1">
+    </section>
+    <section class="row">
+        <article class="col-md-5 col-md-offset-1">
             <p>
                 <h4>
                     1. Les militaires
@@ -81,18 +81,18 @@
                 Que ce soit la garde, l’armée ou la marine, chaque joueur qui intègre les forces armées du royaume est traité avec le respect et l’admiration que la société Adelonienne leur a toujours portée.<br>
                 Mais être militaire ce n’est pas seulement suivre les ordres, en donné où casser des têtes. La haute hiérarchie est souvent amenée, lorsqu’ils souhaitent se retirer de l’armée, à obtenir des postes administratifs importants au sein du royaume, allant de Chancelier suprême à conseiller militaire personnel du roi.
             </p>
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <img src="img/gardemur.png">
-        </div>
-        <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
+        </article>
+        <article class="col-md-offset-1"></article>
+    </section>
+    <section class="row">
 
-        <div class="col-md-5 col-md-offset-1">
+        <article class="col-md-5 col-md-offset-1">
             <img src="img/taverne.png">
-        </div>
-        <div class="col-md-5">
+        </article>
+        <article class="col-md-5">
             <p>
                 <h2>
                     Un monde qui change
@@ -102,11 +102,11 @@
                 Les citoyens ne sont pas écartés du pouvoir, au contraire. jusqu'à 80 joueurs peuvent sièger au Sénat ou se prennent toutes les décisions concernant la vie du royaume, les lois et la création de nouvelles villes.<br><br>
                 L'histoire d'Imperium est entre les mains des joueurs !
             </p>
-        </div>
-        <div class="col-md-offset-1"></div>
-    </div>
-    <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        </article>
+        <article class="col-md-offset-1"></article>
+    </section>
+    <section class="row">
+        <article class="col-md-6 col-md-offset-3">
             <p>
                 <h2>
                     Un staff qui recrute
@@ -118,8 +118,8 @@
             Fondateur Tombraxis.
 
             </p>
-        </div>
-        <div class="col-md-3">
-        </div>
-    </div>
+        </article>
+        <article class="col-md-3">
+        </article>
+    </section>
 </div>
