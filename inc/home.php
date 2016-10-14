@@ -19,9 +19,9 @@
                 }
                 // Read table
                 $open_read = fopen($filename, 'r');
-                while(!feof($open_read))
+                while($ligne=fgets($open_read))
                 {
-                    $ligne = fgets($fp);
+                    
                     $split =explode("|", $ligne);
                     echo "<h1>$split[0]</h1>";
                     echo "<p>$split[1]<p>";
