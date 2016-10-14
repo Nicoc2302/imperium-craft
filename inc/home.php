@@ -5,17 +5,13 @@
                 $filename = "files/test.txt";
                 if($_SERVER['REQUEST_METHOD']=='POST'){
 
-                    $email = $_POST['email'];
-                    $pseudo = $_POST['pseudo'];
-                    $probleme = $_POST['probleme'];
-                    $message = $_POST['message'];
+                    $titre = $_POST['titre'];
+                    $message_news = $_POST['message_news'];
                     $open = fopen($filename, 'a');
                     // Creata table
                     $news = array();
-                    $news['email'] = $email;
-                    $news['pseudo'] = $pseudo;
-                    $news['probleme'] = $probleme;
-                    $news['message'] = $message;
+                    $news['titre'] = $titre;
+                    $news['message_news'] = $message_news;
                     // Write Table
                     $open = fopen($filename, 'a');
                     fwrite($open,implode('|',$news).PHP_EOL);
@@ -29,6 +25,7 @@
                     
                     $split =explode("|", $ligne);
                     echo "<h1>$split[0]</h1>";
+                    echo "<p>$split[1]<p>";
                 }
 
                 fclose($open_read);
@@ -39,23 +36,15 @@
     <div class="col-md-4">
         <form method="post">
             <div class="form-group">
-              <label for="exampleInputEmail1">Adresse Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required name = "email">
+              <label for="exampleInputtitre">Titre</label>
+              <input type="email" class="form-control" id="exampleInputtitre" placeholder="Titre" required name = "titre">
             </div>
             <div class="form-group">
-              <label for="exampleInputPseudo">Pseudo</label>
-              <input type="text" class="form-control" id="exampleInputPseudo" placeholder="Pseudo" required name = "pseudo">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputProbleme">Probleme</label>
-              <input type="text" class="form-control" id="exampleInputProbleme" placeholder="Probleme" required name = "probleme">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputMessage">Message</label>
-              <textarea class="form-control" id="exampleInputMessage" placeholder="Message" required name = "message"></textarea>
+              <label for="exampleInputMessagenews">Message</label>
+              <textarea class="form-control" id="exampleInputMessagenews" placeholder="Message" required name = "message_news"></textarea>
             </div>
             
-            <input type="submit" class="btn btn-default">Submit</input>
+            <input type="submit" class="btn btn-default"></input>
         </form>
     </div>
 </div>
