@@ -28,7 +28,7 @@
                 {
                     
                     $split =explode("|", $ligne);
-                    echo "<div <h1>$split[0]</h1>";
+                    echo "<h1>$split[0]</h1>";
                 }
 
                 fclose($open_read);
