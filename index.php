@@ -26,7 +26,7 @@ and open the template in the editor.
                     <li><a href="?page=server">Présentation</a></li>
                     <li><a href="?page=community">Communauté</a></li>
                     <li><a href="/forum" target="_blank">Forum</a></li>
-                    <li><a href="?page=buy">Don et boutique</a></li>
+                    <li classe="disabled"><a href="?page=buy">Don et boutique</a></li>
                     <li><a href="?page=faq">FAQ</a></li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Le serveur <span class="caret"></span></a>
                         <ul class="dropdown-menu">
