@@ -8,7 +8,7 @@
                     $titre = $_POST['titre'];
                     $message_news = $_POST['message_news'];
                     $open = fopen($filename, 'a');
-                    // Creata table
+                    // Creat a table
                     $news = array();
                     $news['titre'] = $titre;
                     $news['message_news'] = $message_news;
@@ -19,9 +19,9 @@
                 }
                 // Read table
                 $open_read = fopen($filename, 'r');
-                while($ligne=fgets($open_read))
+                while(!feof($open_read))
                 {
-                    
+                    $ligne = fgets($fp)
                     $split =explode("|", $ligne);
                     echo "<h1>$split[0]</h1>";
                     echo "<p>$split[1]<p>";
