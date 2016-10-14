@@ -28,13 +28,12 @@
                 {
                     
                     $split =explode("|", $ligne);
-                    echo "<h1>".$split[0]."</h1>";
+                    echo "<h1>$split[0]</h1>";
                 }
 
                 fclose($open_read);
             
 ?>
-            <div class="alert alert-warning" role="alert">Système de news à venir</div>
         </p>
     </div>
     <div class="col-md-4">
