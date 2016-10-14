@@ -28,7 +28,7 @@
                 {
                     
                     $split =explode("|", $ligne);
-                    echo "<h1>$split[0]</h1>";
+                    echo "<div <h1>$split[0]</h1>";
                 }
 
                 fclose($open_read);
@@ -59,36 +59,3 @@
         </form>
     </div>
 </div>
-<?php
-    $filename = "files/test.txt";
-    if($_SERVER['REQUEST_METHOD']=='POST'){
-        
-        $email = $_POST['email'];
-        $pseudo = $_POST['pseudo'];
-        $probleme = $_POST['probleme'];
-        $message = $_POST['message'];
-        $open = fopen($filename, 'a');
-        // Creata table
-        $news = array();
-        $news['email'] = $email;
-        $news['pseudo'] = $pseudo;
-        $news['probleme'] = $probleme;
-        $news['message'] = $message;
-        // Write Table
-        $open = fopen($filename, 'a');
-        fwrite($open,implode('|',$news).PHP_EOL);
-        fclose($open);
-        
-    }
-    // Read table
-    $open_read = fopen($filename, 'r');
-    while($ligne=fgets($open_read))
-    {
-        $i=0;
-        $split =explode("|", $ligne);
-        echo $split[0];
-    }
-    
-    fclose($open_read);
-            
-?>
