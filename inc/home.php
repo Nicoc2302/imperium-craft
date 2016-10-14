@@ -13,7 +13,6 @@
                     $news['titre'] = $titre;
                     $news['message_news'] = $message_news;
                     // Write Table
-                    $open = fopen($filename, 'a');
                     fwrite($open,implode('|',$news).PHP_EOL);
                     fclose($open);
 
