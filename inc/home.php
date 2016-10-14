@@ -1,6 +1,39 @@
 <div class="row">
     <div class="col-md-8">
         <p>
+            <?php
+                $filename = "files/test.txt";
+                if($_SERVER['REQUEST_METHOD']=='POST'){
+
+                    $email = $_POST['email'];
+                    $pseudo = $_POST['pseudo'];
+                    $probleme = $_POST['probleme'];
+                    $message = $_POST['message'];
+                    $open = fopen($filename, 'a');
+                    // Creata table
+                    $news = array();
+                    $news['email'] = $email;
+                    $news['pseudo'] = $pseudo;
+                    $news['probleme'] = $probleme;
+                    $news['message'] = $message;
+                    // Write Table
+                    $open = fopen($filename, 'a');
+                    fwrite($open,implode('|',$news).PHP_EOL);
+                    fclose($open);
+
+                }
+                // Read table
+                $open_read = fopen($filename, 'r');
+                while($ligne=fgets($open_read))
+                {
+                    
+                    $split =explode("|", $ligne);
+                    echo "<h1>".$split[0]."</h1>";
+                }
+
+                fclose($open_read);
+            
+?>
             <div class="alert alert-warning" role="alert">Système de news à venir</div>
         </p>
     </div>
