@@ -36,7 +36,7 @@
         <form method="post">
             <div class="form-group">
               <label for="exampleInputtitre">Titre</label>
-              <input type="email" class="form-control" id="exampleInputtitre" placeholder="Titre" required name = "titre">
+              <input type="text" class="form-control" id="exampleInputtitre" placeholder="Titre" required name = "titre">
             </div>
             <div class="form-group">
               <label for="exampleInputMessagenews">Message</label>
