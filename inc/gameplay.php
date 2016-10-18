@@ -13,7 +13,7 @@
             Chaque joueur se voit choisir sa « classe » au début de sa vie sur Imperium et la conservera jusqu’à sa mort ou jusqu’à ce qu’il décide d’en changer. En effet, les classes ne sont pas imperméables et un marchand peut décider de voyager comme il peut s’engager à l’armée et vice versa.<br>
         </p>
         <ol>
-            <li><h1>Les marchands</h1></li>
+            <h1><li>Les marchands</li></h1>
             <p>
                 Marchand est un terme relativement englobant en ce qui concerne cette classe car elle regroupe en réalité tous les citoyens non militaires. Les marchands sont avant tout des travailleurs.<br>
 
