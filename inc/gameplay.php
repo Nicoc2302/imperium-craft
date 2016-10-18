@@ -20,12 +20,12 @@
                 Au début de son aventure, chaque marchand se voit s’offrir la possibilité de rejoindre l’une des nombreuses guildes de métier que compte la cité. La plus prestigieuse d’entre-elles étant la guilde de Mages. En incorporant une guilde, chaque joueur entre dans un cercle d’entraide et de camaraderie qui le guidera tout au long de sa vie sur imperium.<br>
                 Cependant, la vie de la classe marchande ne s’arrête pas au travail dans une guilde ! Un fois citoyen, les joueurs ont accès à la vie politique du royaume et beaucoup d’entre-deux se sont vu confié des missions de colonisation faisant d’eux des héros nationaux.<br>
             </p>
-            <li><h1>Les voyageurs</h1></li>
+            <h1><li>Les voyageurs</li></h1>
             <p>
                 Les voyageurs sont des nomades et surtout des explorateurs. Hors des contraintes d’une vie dictée par l’économie et les impôts, les auberges sont leur foyer. Les voyageurs n’ont, pour la plupart pas de logement fixe, et se voient parfois refuser l’accès à des villes à cheval sur les vagabonds.<br>
                 Ne figurant sur aucun registre et donc insaisissable, certains servent la guilde des assassins ou des voleurs, mais la majorité servent la veuve et l’orphelin. Lorsqu’ils n’arpentent pas les grottes et autres donjons que recèle le monde, ils peuvent être engagés par à peu près tout le monde, surtout les guildes des mages ou des alchimistes.<br>
             </p>
-            <li><h1>Les militaires</h1></li>
+            <h1><li>Les militaires</li></h1>
             <p>
                 Cette classe est le bras armé du royaume. Chaque joueur qui souhaite se battre dans les rangs de l’armée doivent subir un entraînement intense pour pouvoir gravir les échelons hiérarchiques. Les militaires résident dans les casernes, ne payent pas d’impôts et peuvent être mobilisés à chaque instant. Il n’est pas rare qu’un soldat soit caserné à plusieurs forts différents sur une semaine de temps.<br>
                 Que ce soit la garde, l’armée ou la marine, chaque joueur qui intègre les forces armées du royaume est traité avec le respect et l’admiration que la société Adonienne leur a toujours portée.<br>
