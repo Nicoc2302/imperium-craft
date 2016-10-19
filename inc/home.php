@@ -41,7 +41,7 @@
             <?php
             //Define number of pages
                 $nbp = count($lines)%5 ==0 ? count($lines)/NBLINE:(ceil(count($lines)/NBLINE));// 10%5 = 0 => 10/5 = 2 // 11%5 == 1 => (11/5)+1
-                $start = isset($_GET['start']) ? $_GET['page'] : 1;
+                $start = isset($_GET['start']) ? $_GET['start'] : 1;
                 $previous = $start>1 ? $start-1:1;
                 $next = $start< $nbp ? $start+1:$nbp;
             //iterate every page
