@@ -24,7 +24,7 @@
                     $i=0;
                     $split =explode("|", $ligne);
                     $temp_news = array();
-                    $temp_news[$i] = array('titre'=>$split[0], 'cheveux'=>$split[1]);
+                    $temp_news[$i] = array('titre'=>$split[0], 'text'=>$split[1]);
                     $preserved = array_reverse($temp_news);
                     print_r($preserved);
                     $i+=1;
