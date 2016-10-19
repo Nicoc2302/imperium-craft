@@ -11,7 +11,7 @@
                     // Creat a table
                     $news = array();
                     $news['titre'] = $titre;
-                    $news['message_news'] = $message_news;
+                    $news['message_news'] = str_replace(array("\r\n", "\r", "\n"), "<br />",$message_news);
                     // Write Table
                     fwrite($open,implode('|',$news).PHP_EOL);
                     fclose($open);
@@ -29,7 +29,7 @@
                 {
                    
                     $split =explode("|", $ligne); //1,mess1 //2,mess2
-                    $temps_news[$i] = array('titre'=>$split[0],'message'=>str_replace(array("\r\n", "\r", "\n"), "<br />", $split[1]) );// [] => [[1,mess1],[2,mess2],[3,mess3]]
+                    $temps_news[$i] = array('titre'=>$split[0],'message'=> $split[1] );// [] => [[1,mess1],[2,mess2],[3,mess3]]
                     $i+=1;
                 }
                 fclose($open_read);

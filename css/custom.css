@@ -29,17 +29,7 @@ body {
     text-align: center;
 }
 
-.server{
-    color: white;
-    background-color: brown;
-    
-}
-.server h2{
-    color: gold;
-}
-.server h4{
-    color: gold;
-}
+
 .background{
     background-image: url("../img/parchemin.jpg");
     opacity:0.9;
