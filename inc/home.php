@@ -21,12 +21,13 @@
                 $lignes = file($filename);
                 $lignes = array_reverse($lignes);
                 $start = 0;
+                define('NBLINE', 5);
                 if(isset($_GET['start']) && (intval($_GET['start']))){
                     $start = $_GET['start'];
-                    $start = $start>0 ? ($start-1) *5:0;
+                    $start = $start>0 ? ($start-1) *NBLINE:0;
                 }
                 
-                for($i=$start;$i<$start + 5 && $i<count($lignes);$i++)
+                for($i=$start;$i<$start + NBLINE && $i<count($lignes);$i++)
                 {
                     $split =explode("|", $lignes[$i]);
                     echo "<h1>$split[0]</h1>";
@@ -37,12 +38,19 @@
                 <ul class="pager">
                     <li><a href="#">Previous</a></li>
                     <li><a href="?page=home&start=1">1</a></li>
+                    
+            <?php
+                for($nbp=0;$nbp<count($lignes);$nbp+=NBLINE)
+                {
+                    for($num = 1;$num<$nbp/NBLINE;$num++)
+                    {
+                        echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
+                    }
+                }
+            ?>             
                     <li><a href="#">Next</a></li>
                 </ul>
-            </nav>
-            <?php
-            
-?>
+           </nav>
         </p>
     </div>
     <div class="col-md-4">
