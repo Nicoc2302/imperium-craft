@@ -20,12 +20,13 @@
                 
                 $lignes = file($filename);
                 $lignes = array_reverse($lignes);
-                if(isset($_GET['start']) && is_int($_GET['start'])){
+                $start = 0;
+                if(isset($_GET['start']) && (intval($_GET['start']))){
                     $start = $_GET['start'];
-                    $start = $start>0 ? ($start-1) *5:1;
+                    $start = $start>0 ? ($start-1) *5:0;
                 }
                 
-                for($i=$start;$i<5 && $i<count($lignes);$i++)
+                for($i=$start;$i<$start + 5 && $i<count($lignes);$i++)
                 {
                     $split =explode("|", $lignes[$i]);
                     echo "<h1>$split[0]</h1>";
