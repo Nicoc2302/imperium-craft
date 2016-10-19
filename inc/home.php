@@ -32,13 +32,13 @@
                     $temps_news[$i] = array('titre'=>$split[0],'message'=>$split[1] );// [] => [[1,mess1],[2,mess2],[3,mess3]]
                     $i+=1;
                 }
-                $preserved = array_reverse($temps_news, true);//[[3,mess3],[2,mess2],[1,mess1]]
+                fclose($open_read);
+                $preserved = array_reverse($temps_news);//[[3,mess3],[2,mess2],[1,mess1]]
                 for($j=0;$j<count($preserved) && $j<2;$j++)
                 {
                     echo '<h1>'.$preserved[$j]['titre'].'</h1>';
                     echo '<p>'.$preserved[$j]['message'].'</p>';
                 }
-                fclose($open_read);
             
 ?>
         </p>
