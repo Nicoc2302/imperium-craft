@@ -17,28 +17,37 @@
                     fclose($open);
 
                 }
-                // Read table
-                $open_read = fopen($filename, 'r');
-                $temps_news = array();//[]
-                $i=0;
-                // 1| mess1
-                // 2| mess2
-                // 3| mess3
                 
-                while($ligne=fgets($open_read))
-                {
-                   
-                    $split =explode("|", $ligne); //1,mess1 //2,mess2
-                    $temps_news[$i] = array('titre'=>$split[0],'message'=> $split[1] );// [] => [[1,mess1],[2,mess2],[3,mess3]]
-                    $i+=1;
+                $lignes = file($filename);
+                $lignes = array_reverse($lignes);
+                if(isset($_GET['start']) && is_int($_GET['start'])){
+                    $start = $_GET['start'];
+                    $start = $start>0 ? ($start-1) *5:1;
                 }
-                fclose($open_read);
-                $preserved = array_reverse($temps_news);//[[3,mess3],[2,mess2],[1,mess1]]
-                for($j=0;$j<count($preserved) && $j<2;$j++)
+                
+                for($i=$start;$i<5 && $i<count($lignes);$i++)
                 {
-                    echo '<h1>'.$preserved[$j]['titre'].'</h1>';
-                    echo '<p>'.$preserved[$j]['message'].'</p>';
+                    $split =explode("|", $lignes[$i]);
+                    echo "<h1>$split[0]</h1>";
+                    echo "<p>$split[1]<p>";
                 }
+                ?>
+            <nav aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="?page=home&start=1">1</a></li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <?php
             
 ?>
         </p>
