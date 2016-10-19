@@ -23,8 +23,13 @@
                 {
                     
                     $split =explode("|", $ligne);
-                    echo "<h1>$split[0]</h1>";
-                    echo "<p>$split[1]<p>";
+                    $temp_news = array();
+                    $temp_news['titre'] = $split[0];
+                    $temp_news['message_news'] = $split[1];
+                    $preserved = array_reverse($temp_news, true);
+                    echo "<h1>$preserved[0]</h1>";
+                    echo "<p>$preserved[1]<p>";
+                    
                 }
 
                 fclose($open_read);
