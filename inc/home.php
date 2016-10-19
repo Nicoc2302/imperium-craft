@@ -18,8 +18,8 @@
 
                 }
                 
-                $lignes = file($filename);
-                $lignes = array_reverse($lignes);
+                $lines = file($filename);
+                $lines = array_reverse($lines);
                 $start = 0;
                 define('NBLINE', 5);
                 if(isset($_GET['start']) && (intval($_GET['start']))){
@@ -27,28 +27,30 @@
                     $start = $start>0 ? ($start-1) *NBLINE:0;
                 }
                 
-                for($i=$start;$i<$start + NBLINE && $i<count($lignes);$i++)
+                for($i=$start;$i<$start + NBLINE && $i<count($lines);$i++)
                 {
-                    $split =explode("|", $lignes[$i]);
+                    $split =explode("|", $lines[$i]);
                     echo "<h1>$split[0]</h1>";
                     echo "<p>$split[1]<p>";
                 }
                 ?>
             <nav aria-label="Page navigation">
                 <ul class="pager">
-                    <li><a href="#">Previous</a></li>
-                    <li><a href="?page=home&start=1">1</a></li>
+                    
                     
             <?php
-                for($nbp=0;$nbp<count($lignes);$nbp+=NBLINE)
+            //Define number of pages
+                $nbp = count($lines)%5 ==0 ? count($lines)/NBLINE:(ceil(count($lines)/NBLINE));// 10%5 = 0 => 10/5 = 2 // 11%5 == 1 => (11/5)+1
+            //iterate every page
+                echo'<li><a href="?page=home&start="'.$start.'">Previous</a></li>';
+                for($num=1;$num<=$nbp;$num++)// 1<=2
                 {
-                    for($num = 1;$num<$nbp/NBLINE;$num++)
-                    {
-                        echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
-                    }
+                    echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
+                    
                 }
+                echo'<li><a href="?page=home&start="'.$start.'">Next</a></li>';
             ?>             
-                    <li><a href="#">Next</a></li>
+                    
                 </ul>
            </nav>
         </p>
