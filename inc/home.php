@@ -26,7 +26,7 @@
                     $temp_news = array();
                     $temp_news['titre'] = $split[0];
                     $temp_news['message_news'] = $split[1];
-                    $preserved = array_reverse($temp_news, true);
+                    $preserved = array_reverse($temp_news);
                     print_r($preserved);
                     
                 }
