@@ -21,14 +21,13 @@
                 $open_read = fopen($filename, 'r');
                 while($ligne=fgets($open_read))
                 {
-                    
+                    $i=0;
                     $split =explode("|", $ligne);
                     $temp_news = array();
-                    $temp_news['titre'] = $split[0];
-                    $temp_news['message_news'] = $split[1];
+                    $temp_news[$i] = array('titre'=>$split[0], 'cheveux'=>$split[1]);
                     $preserved = array_reverse($temp_news);
                     print_r($preserved);
-                    
+                    $i+=1;
                 }
 
                 fclose($open_read);
