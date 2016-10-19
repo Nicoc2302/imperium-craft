@@ -19,18 +19,25 @@
                 }
                 // Read table
                 $open_read = fopen($filename, 'r');
+                $temps_news = array();//[]
                 $i=0;
+                // 1| mess1
+                // 2| mess2
+                // 3| mess3
+                
                 while($ligne=fgets($open_read))
                 {
                    
-                    $split =explode("|", $ligne);
-                    $temp_news = array();
-                    $temp_news[$i] = array('titre'=>$split[0], 'text'=>$split[1]);
-                    $preserved = array_reverse($temp_news);
-                    print_r($preserved);
+                    $split =explode("|", $ligne); //1,mess1 //2,mess2
+                    $temps_news[$i] = array('titre'=>$split[0],'message'=>$split[1] );// [] => [[1,mess1],[2,mess2],[3,mess3]]
                     $i+=1;
                 }
-
+                $preserved = array_reverse($temps_news, true);//[[3,mess3],[2,mess2],[1,mess1]]
+                for($j=0;$j<count($preserved) && $j<2;$j++)
+                {
+                    echo '<h1>'.$preserved[$j]['titre'].'</h1>';
+                    echo '<p>'.$preserved[$j]['message'].'</p>';
+                }
                 fclose($open_read);
             
 ?>
