@@ -42,13 +42,13 @@
             //Define number of pages
                 $nbp = count($lines)%5 ==0 ? count($lines)/NBLINE:(ceil(count($lines)/NBLINE));// 10%5 = 0 => 10/5 = 2 // 11%5 == 1 => (11/5)+1
             //iterate every page
-                echo'<li><a href="?page=home&start="'.$start.'">Previous</a></li>';
+                echo'<li><a href="?page=home&start='.$start.'">Previous</a></li>';
                 for($num=1;$num<=$nbp;$num++)// 1<=2
                 {
                     echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
                     
                 }
-                echo'<li><a href="?page=home&start="'.$start.'">Next</a></li>';
+                echo'<li><a href="?page=home&start='.$start.'">Next</a></li>';
             ?>             
                     
                 </ul>
