@@ -31,7 +31,7 @@ and open the template in the editor.
                     <li><a href="?page=faq">FAQ</a></li>
                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Le serveur <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href='?page=map' disabled=true>Carte</a></li>
+                            <li><a href='?page=map'>Carte</a></li>
                             <li><a href='?page=city'>La cité d'Adelon</a></li>
                             <li><a href='?page=senat'>Le sénat</a></li>
                             <li><a href='?page=gameplay'>Gameplay</a></li>
