@@ -10,6 +10,8 @@ and open the template in the editor.
 .not-active {
    pointer-events: none;
    cursor: default;
+   background-color: grey;
+   
 }
 html {
     position: relative;
