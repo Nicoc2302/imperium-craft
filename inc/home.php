@@ -45,7 +45,7 @@
                 $previous = $start>1 ? $start-1:1;
                 $next = $start< $nbp ? $start+1:$nbp;
             //iterate every page
-                if (!isset($start)) {
+                
                 if($start!=1){
                 echo'<li><a href="?page=home&start='.$previous.'">Previous</a></li>';
                 }
@@ -61,7 +61,7 @@
                     
                 }
                 if($start!=$nbp){
-                echo'<li><a href="?page=home&start='.$next.'">Next</a></li>';}}
+                echo'<li><a href="?page=home&start='.$next.'">Next</a></li>';}
             ?>             
                     
                 </ul>
