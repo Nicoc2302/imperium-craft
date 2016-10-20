@@ -45,7 +45,7 @@
                 $previous = $start>1 ? $start-1:1;
                 $next = $start< $nbp ? $start+1:$nbp;
             //iterate every page
-                if($start!=1){
+                if($start!=1 && !empty($start)){
                 echo'<li><a href="?page=home&start='.$previous.'">Previous</a></li>';
                 }
                 for($num=1;$num<=$nbp;$num++)// 1<=2
@@ -59,7 +59,7 @@
                 }
                     
                 }
-                if($start!=$nbp){
+                if($start!=$nbp && !empty($start)){
                 echo'<li><a href="?page=home&start='.$next.'">Next</a></li>';}
             ?>             
                     
