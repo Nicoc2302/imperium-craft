@@ -49,8 +49,14 @@
                 echo'<li><a href="?page=home&start='.$previous.'">Previous</a></li>';
                 }
                 for($num=1;$num<=$nbp;$num++)// 1<=2
+                {   if($num!=$start)
+                    {
+                        echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
+                    }
+                else
                 {
-                    echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
+                    echo'<li><a href="?page=home&start='.$num.'" class="not-active">'.$num.'</a></li>';
+                }
                     
                 }
                 if($start!=$nbp){
