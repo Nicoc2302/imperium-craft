@@ -34,10 +34,9 @@
                     echo "<p>$split[1]<p>";
                 }
                 ?>
-            <nav aria-label="Page navigation">
-                <ul class="pager">
-                    
-                    
+            
+        <nav aria-label="Page navigation" class="text-center">
+                <ul class="pagination">
             <?php
             //Define number of pages
                 $nbp = count($lines)%5 ==0 ? count($lines)/NBLINE:(ceil(count($lines)/NBLINE));// 10%5 = 0 => 10/5 = 2 // 11%5 == 1 => (11/5)+1
@@ -46,22 +45,15 @@
                 $next = $start< $nbp ? $start+1:$nbp;
             //iterate every page
                 
-                if($start!=1){
-                echo'<li><a href="?page=home&start='.$previous.'">Previous</a></li>';
-                }
+                //if($start!=1){
+                echo'<li'.(($start==1)?' class="disabled"':"").'><a href="?page=home&start='.$previous.'">&laquo;</a></li>';
+                //}
                 for($num=1;$num<=$nbp;$num++)// 1<=2
-                {   if($num!=$start)
-                    {
-                        echo'<li><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
-                    }
-                else
-                {
-                    echo'<li><a href="?page=home&start='.$num.'" class="not-active">'.$num.'</a></li>';
+                {  
+                    echo'<li'.(($start==$num)?' class="active"':'').'><a href="?page=home&start='.$num.'">'.$num.'</a></li>';
                 }
-                    
-                }
-                if($start!=$nbp){
-                echo'<li><a href="?page=home&start='.$next.'">Next</a></li>';}
+                echo'<li'.(($start==$nbp)?' class="disabled"':'').'><a href="?page=home&start='.$next.'">&raquo;</a></li>';
+                
             ?>             
                     
                 </ul>
