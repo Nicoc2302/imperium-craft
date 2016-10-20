@@ -55,7 +55,7 @@
                     }
                 else
                 {
-                    echo'<li><a href="?page=home&start='.$num.'" class="not-active">'.$num.'</a></li>';
+                    echo'<li><a href="?page=home&start='.$num.'" class="disabled">'.$num.'</a></li>';
                 }
                     
                 }
