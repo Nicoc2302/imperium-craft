@@ -24,7 +24,7 @@ and open the template in the editor.
                 <nav>
                   <ul class="nav nav-justified">
                     <li class="active"><a href="?page=home">Home</a></li>
-                    <li><a href="?page=server">Présentation</a></li>
+                    <li><a href="?page=server" disabled='true'>Présentation</a></li>
                     <!--<li><a href="?page=community">Communauté</a></li>
                     <li><a href="/forum" target="_blank">Forum</a></li>
                     <li class="disabled"><a href="?page=buy">Don et boutique</a></li>-->
