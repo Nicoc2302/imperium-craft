@@ -46,6 +46,6 @@ body {
     
     border-radius: 25px;
 }
-.nav > li.disabled > a {
+li.disabled > a {
     pointer-events: none;
 }
