@@ -19,8 +19,8 @@ and open the template in the editor.
     <body>
         <div class="container">
             <header class="masthead">
-                <img src="img/logo.png">
-                <h3 class="text-muted">Imperium-Craft</h3>
+                <img src="img/logo.png" align="center">
+                <h3 class="text-muted" align="center">Imperium-Craft</h3>
                 <nav>
                   <ul class="nav nav-justified">
                     <li class="active"><a href="?page=home">Home</a></li>
