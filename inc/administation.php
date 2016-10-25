@@ -18,10 +18,9 @@
         $identifiant = $_POST['identifiant'];
         $password = $_POST['password'];
         $open = fopen($filename,"r");
-        $lines = fgets($open);
-        for($i=0;$i<count($lines);$i++)
+        while($line = fgets($open))
         {
-            $split =explode("|", $lines[$i]);
+            $split =explode("|", $line);
             if($identifiant == $split[0] && $password == $split[1])
             {
                 echo 'trolol';
