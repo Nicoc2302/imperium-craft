@@ -13,18 +13,18 @@
     </form>
 </div>
 <?php
-    $filename = "files/root.txt";
-    if($_SERVER['REQUEST_METHOD']=='POST'){
-        $identifiant = $_POST['Identifiant'];
-        $password = $_POST['password'];
-        $lines = file($filename);
-        $lines = array_reverse($lines);
-        for($i=0;$i<count($lines);$i++)
-        {
-            $split =explode("|", $lines[$i]);
-            echo "<h1>$split[0]</h1>";
-            echo "<p>$split[1]<p>";
-        }
+    //$filename = "files/root.txt";
+    //if($_SERVER['REQUEST_METHOD']=='POST'){
+        //$identifiant = $_POST['Identifiant'];
+        //$password = $_POST['password'];
+        //$lines = file($filename);
+        //$lines = array_reverse($lines);
+        //for($i=0;$i<count($lines);$i++)
+        //{
+         //   $split =explode("|", $lines[$i]);
+          //  echo "<h1>$split[0]</h1>";
+          //  echo "<p>$split[1]<p>";
+        //}
 ?>
    
 
