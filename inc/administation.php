@@ -27,7 +27,7 @@
         }
         if($identifiant == $split[0] && $password == $split[1])
         {
-            echo 'ok';
+            echo 'trolol';
         }
     }
     
