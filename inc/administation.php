@@ -2,7 +2,7 @@
     <form method="post">
         <div class="form-group">
           <label for="exampleInputidentifiants">Identifiants</label><br>
-          <input type="text" class="form-control" id="exampleInputidentifiants" placeholder="Identifiants" required name = "Identifiant">
+          <input type="text" class="form-control" id="exampleInputidentifiants" placeholder="Identifiants" required name = "identifiant">
         </div>
         <div class="form-group">
             <label for="exampleInputpassword">Mot de passe</label><br>
