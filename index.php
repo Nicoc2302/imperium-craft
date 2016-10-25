@@ -38,6 +38,7 @@ and open the template in the editor.
                         </ul>
                     </li>
                     <li><a href="?page=gallery">Galerie</a></li>
+                    <li><a href="?page=administration">Administration</a></li>
                   </ul>
                 </nav>
             </header>
