@@ -19,14 +19,7 @@
         $password = $_POST['password'];
         $lines = file($filename);
         $lines = array_reverse($lines);
-        $start = 0;
-        define('NBLINE', 5);
-        if(isset($_GET['start']) && (intval($_GET['start']))){
-            $start = $_GET['start'];
-            $start = $start>0 ? ($start-1) *NBLINE:0;
-        }
-
-        for($i=$start;$i<$start + NBLINE && $i<count($lines);$i++)
+        for($i=0;$i<count($lines);$i++)
         {
             $split =explode("|", $lines[$i]);
             echo "<h1>$split[0]</h1>";
