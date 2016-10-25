@@ -25,7 +25,12 @@
             echo "<h1>$split[0]</h1>";
             echo "<p>$split[1]<p>";
         }
+        if($identifiant == $split[0] && $password == $split[1])
+        {
+            echo 'ok';
+        }
     }
+    
 ?>
    
 
