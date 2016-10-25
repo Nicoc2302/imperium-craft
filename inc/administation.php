@@ -15,7 +15,7 @@
 <?php
     $filename = "files/root.txt";
     if($_SERVER['REQUEST_METHOD']=='POST'){
-        $identifiant = $_POST['Identifiant'];
+        $identifiant = $_POST['identifiant'];
         $password = $_POST['password'];
         $lines = file($filename);
         $lines = array_reverse($lines);
