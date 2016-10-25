@@ -17,18 +17,17 @@
     if($_SERVER['REQUEST_METHOD']=='POST'){
         $identifiant = $_POST['identifiant'];
         $password = $_POST['password'];
-        $lines = file($filename);
-        $lines = array_reverse($lines);
+        $open = fopen($filename,"r");
+        $lines = fgets($open);
         for($i=0;$i<count($lines);$i++)
         {
             $split =explode("|", $lines[$i]);
-            echo "<h1>$split[0]</h1>";
-            echo "<p>$split[1]<p>";
+            if($identifiant == $split[0] && $password == $split[1])
+            {
+                echo 'trolol';
+            }
         }
-        if($identifiant == $split[0] && $password == $split[1])
-        {
-            echo 'trolol';
-        }
+        
     }
     
 ?>
